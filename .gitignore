@@ -1,0 +1,5 @@
+# Nothing here is a secret, and the files that hold keys live outside the tree.
+# The configuration names environment variables; it never carries their values.
+*.tmp
+*.bak-*
+.DS_Store

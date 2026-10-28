@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "default_provider": "river",
+  "default_model": "deepseek-ai/DeepSeek-V4.1-Flash",
+  "compaction": {
+    "threshold": 0.8
+  },
+  "approvals": {
+    "allow": [
+      "command",
+      "edit",
+      "write",
+      "shell"
+    ]
+  },
+  "retry": {
+    "backoff_ms": 5000,
+    "max_attempts": 4,
+    "max_delay_ms": 60000
+  },
+  "mcpServers": {},
+  "tools": {
+    "confinement": {
+      "sandbox": {
+        "enabled": false
+      },
+      "workspace_only": false
+    }
+  }
+}
