@@ -1,18 +1,5 @@
 {
   "providers": {
-    "deepseek": {
-      "name": "DeepSeek",
-      "doc": "https://api-docs.deepseek.com/quick_start/pricing",
-      "environment_keys": [
-        "DEEPSEEK_API_KEY"
-      ],
-      "wires": [
-        {
-          "api": "https://api.deepseek.com",
-          "schema": "openai"
-        }
-      ]
-    },
     "exa": {
       "name": "Exa",
       "environment_keys": [
@@ -21,18 +8,6 @@
       "wires": [
         {
           "api": "https://api.experientiallabs.ai/v1",
-          "schema": "openai"
-        }
-      ]
-    },
-    "liquid": {
-      "name": "Liquid",
-      "environment_keys": [
-        "LIQUID_API_KEY"
-      ],
-      "wires": [
-        {
-          "api": "https://api.liquid.ai/openai/v1",
           "schema": "openai"
         }
       ]
